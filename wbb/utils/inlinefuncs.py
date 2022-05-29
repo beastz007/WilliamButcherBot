@@ -103,7 +103,7 @@ async def inline_help_func(__HELP__):
             reply_markup=buttons,
         ),
         InlineQueryResultArticle(
-            title="Bev",
+            title="Dev",
             description="To Know about devloper.",
             input_message_content=InputTextMessageContent(
                 "http://b34stx.tk"
@@ -134,7 +134,7 @@ async def alive_function(answers):
 **Pyrogram:** `{pyrover}`
 **MongoDB:** `{mongover}`
 **Platform:** `{sys.platform}`
-**Profiles:** [BOT](t.me/{BOT_USERNAME}) | [UBOT](t.me/{USERBOT_USERNAME})
+**Profiles:** [BOT](t.me/{BOT_USERNAME}) | [Dev](t.me/BeastXBots)
 """
     answers.append(
         InlineQueryResultArticle(
